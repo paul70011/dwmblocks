@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	{"", "sb-volume", 0, 10},
 	{"", "sb-cpu", 10, 0},
 	{"", "sb-memory", 10, 0},
-	{"", "date '+%A, %d %B %Y - %H:%M'", 10, 0},
+	{"", "date '+%A, %d %B %Y - %H:%M '", 10, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
